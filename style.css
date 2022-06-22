@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+    --text-size: 16px;
+    --margin-global: 40px auto 40px auto;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Space Mono';
+    font-size: var(--text-size);
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 30vmin;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+nav {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
+
+nav a {
+    color: #999999;
+    text-decoration: none;
+}
+
+nav a.selected {
+    color: #ffffff;
+
+}
